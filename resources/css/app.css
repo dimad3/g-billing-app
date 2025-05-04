@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This will target only inputs in your table */
+input.no-border {
+    @apply border-0 outline-none shadow-none;
+}
